@@ -47,7 +47,7 @@ export const getCuentaPorId = (req, res) => {
     }
 };
 
-//Endpoint para cuentas, por medio del id, estado del cliente, y genero
+//Endpoint para cuentas, por medio del id, estado del cliente, y genero este es el endpoint para las distintas querys 
 export const getCuentas = (req, res) => {
     const { _id, client, gender } = req.query;
 
