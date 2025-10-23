@@ -6,7 +6,7 @@ import {
     getCuentas,
     getCuentaPorId,
     getCuentasBalance
-} from "../controllers/cuentasControladores.js";
+} from "../controladores/cuentasControladores.js";
 
 const router = Router();
 
